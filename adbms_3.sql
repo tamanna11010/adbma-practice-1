@@ -1,8 +1,3 @@
--- ==========================
--- Nimbus SQL Demo Script
--- Single-Tab Version
--- ==========================
-
 -- Step 1: Setup Database and Table
 DROP DATABASE IF EXISTS nimbus_demo;
 CREATE DATABASE nimbus_demo;
@@ -71,3 +66,4 @@ COMMIT;
 
 -- Final check
 SELECT * FROM StudentEnrollments;
+
